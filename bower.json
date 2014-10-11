@@ -1,0 +1,25 @@
+{
+  "name": "wearsite",
+  "version": "0.0.0",
+  "authors": [
+    "Lloyd Cledwyn <cledwyn@gmail.com>"
+  ],
+  "description": "Replica of GDG Shanghai Dev Fest 2014 site.",
+  "keywords": [
+    "GDG",
+    "DevFest",
+    "Wear"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "~2.7.0"
+  }
+}

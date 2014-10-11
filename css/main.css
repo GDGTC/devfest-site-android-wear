@@ -1,0 +1,583 @@
+.site-credit-parent{
+  position:fixed;
+  bottom:0px;
+  width:100%;   //width should be 100%
+  z-index: 2000;
+ } 
+.site-credit-child{
+  width:150px; //min width should give to center the div.
+  margin: auto; //here it will make center 
+  text-align: center;
+  color: white;
+  z-index: 2000;
+  font-size: smaller;
+ }
+.site-credit{
+  bottom:0px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 2000;
+  top: 50%;
+  margin-top: -310px;
+}
+
+html,
+body {
+  background-color: #33CE8E;
+}
+.watch-band {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 280px;
+  top: 0;
+  left: 50%;
+  margin-left: -140px;
+  background-color: #414141;
+  border-top: none;
+  border-bottom: none;
+  -wekit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  z-index: 10;
+  width: 560px;
+  height: 560px;
+  top: 50%;
+  left: 50%;
+  margin-top: -280px;
+  margin-left: -280px;
+}
+.register-guide {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 2000;
+  top: 50%;
+  margin-top: -310px;
+}
+.knob {
+  width: 40px;
+  height: 80px;
+  background-color: #9e9e9e;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  z-index: 10;
+  margin-left: 258px;
+  margin-top: -40px;
+  border-radius: 8px;
+}
+.watch-wrapper {
+  position: relative;
+  -wekit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 12px solid grey;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+  background-color: white;
+  overflow: hidden;
+}
+.swiper-container {
+  position: relative;
+  height: 100%;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  overflow: hidden;
+}
+.one-screen {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: #555;
+  background-color: white;
+}
+.one-screen .content-wrapper {
+  height: 100%;
+  margin-top: 0%;
+  background-color: white;
+}
+.one-screen .content-wrapper .content {
+  margin: 0 auto;
+}
+.one-screen .content-wrapper .main-icon {
+  position: absolute;
+  top: 0%;
+  right: 20%;
+  height: 12%;
+  width: 12%;
+  margin-top: -6%;
+  margin-right: -6%;
+  background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+  background-size: contain;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+}
+.one-screen .content-wrapper.half {
+  height: 30%;
+  margin-top: 70%;
+  background-color: white;
+}
+.one-screen .content-wrapper.half .content {
+  margin: 0 auto;
+}
+.one-screen .content-wrapper.half .main-icon {
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  height: 12%;
+  width: 12%;
+  margin-top: -6%;
+  margin-right: -6%;
+  background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+  background-size: contain;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+}
+.one-screen .content-wrapper.with-bg-l {
+  height: 30%;
+  margin-top: 70%;
+  background-color: white;
+}
+.one-screen .content-wrapper.with-bg-l .content {
+  margin: 0 auto;
+}
+.one-screen .content-wrapper.with-bg-l .main-icon {
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  height: 12%;
+  width: 12%;
+  margin-top: -6%;
+  margin-right: -6%;
+  background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+  background-size: contain;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+}
+.one-screen h1 {
+  text-align: center;
+}
+.one-screen p {
+  margin: 0;
+}
+.one-screen .sub {
+  color: #aaa;
+}
+.one-screen .center {
+  text-align: center;
+}
+#main-title {
+  background: url("http://devfest.qiniudn.com/2014/22/image/bg2.jpg") no-repeat center top;
+  background-size: auto 70%;
+  background-color: white;
+}
+#main-title .content {
+  width: 70%;
+}
+#main-title .title {
+  padding-top: 6%;
+}
+#date-info .content {
+  width: 100%;
+}
+#date-info i {
+  vertical-align: middle;
+  width: 2em;
+  text-align: center;
+}
+#date-info .time,
+#date-info .address,
+#date-info .note {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1.38em;
+}
+#date-info .time,
+#date-info .address {
+  margin: 2% auto;
+  color: #5DABFF;
+}
+#date-info .note {
+  text-indent: 2em;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: 5%;
+}
+#date-info .date {
+  text-align: center;
+  padding: 12% 0 5%;
+  height: 8%;
+  color: white;
+  font-size: 2em;
+  background-color: #f44;
+  margin-bottom: 5%;
+}
+#date-info .date span {
+  vertical-align: middle;
+  line-height: 2em;
+}
+#agenda i {
+  vertical-align: middle;
+  width: 2em;
+  text-align: center;
+}
+#agenda .top {
+  text-align: center;
+  padding: 12% 0 5%;
+  height: 8%;
+  color: white;
+  font-size: 1.6em;
+  background-color: #44D2FF;
+}
+#agenda .top span {
+  vertical-align: middle;
+  line-height: 2em;
+}
+#agenda .agenda-wrapper {
+  height: 80%;
+}
+#agenda .agenda-wrapper .sections {
+  list-style: none;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+#agenda .agenda-wrapper .sections > li {
+  -wekit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ddd;
+  border-left: 18px solid #44ADFF;
+  height: 20%;
+  width: 100%;
+}
+#agenda .agenda-wrapper .sections .section {
+  width: 70%;
+  padding-top: 2%;
+  margin: 0 auto;
+}
+#agenda .agenda-wrapper .sections .section .time {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+#agenda .agenda-wrapper .sections .section .info {
+  font-size: 2em;
+}
+#agenda .agenda-wrapper .sections .section.s1 .time {
+  color: #6bbe33;
+}
+#agenda .agenda-wrapper .sections .section.s2 .time {
+  color: #ff7a00;
+}
+#agenda .agenda-wrapper .sections .section.s3 .time {
+  color: #3eaed1;
+}
+#agenda .agenda-wrapper .sections .section.s4 .time {
+  color: #dab700;
+}
+.speaker-intro .speaker {
+  padding-top: 5%;
+}
+.speaker-intro .speaker .title {
+  margin-right: 0.5em;
+  font-size: 1em;
+}
+.speaker-intro .speaker .name {
+  font-size: 1.2em;
+  color: #666;
+}
+.speaker-intro .topic {
+  margin-top: 5%;
+}
+.speaker-intro .topic .topic-name {
+  font-size: 1.8em;
+  line-height: 1.4em;
+  text-align: center;
+}
+#speaker1 {
+  background: url("../images/speaker1.jpg") no-repeat center top;
+  background-size: auto 100%;
+  background-color: white;
+}
+#speaker1 .content {
+  width: 70%;
+}
+#speaker2 {
+  background: url("../images/speaker2.jpg") no-repeat center center;
+  background-size: 100% auto;
+  background-color: white;
+}
+#speaker2 .content {
+  width: 70%;
+}
+#speaker3 {
+  background: url("../images/speaker3.jpg") no-repeat center center;
+  background-size: auto 100%;
+  background-color: white;
+}
+#speaker3 .content {
+  width: 75%;
+}
+#location #map-container {
+  width: 100%;
+  height: 70%;
+}
+#location .content {
+  width: 70%;
+  padding-top: 3%;
+}
+#location .icon-turn-right {
+  background: url("http://devfest.qiniudn.com/2014/22/image/turnright.gif") no-repeat center top;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+#location .location-info {
+  padding-top: 2%;
+}
+#location .location-info .info {
+  font-size: 1.2em;
+}
+#location .location-info .tra {
+  margin-top: 2%;
+}
+#register {
+  background: url("http://devfest.qiniudn.com/2014/22/image/bg3.jpg") no-repeat 100% center;
+  background-size: auto 115%;
+}
+#register .content-wrapper.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#register .prize-info {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+#register .register-tip {
+  font-size: 2em;
+  color: white;
+  padding-top: 280px;
+  text-align: center;
+}
+#register #register-btn {
+  position: absolute;
+  display: block;
+  height: 40%;
+  width: 40%;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20%;
+  margin-left: -20%;
+  z-index: 50;
+  text-decoration: none;
+  cursor: pointer;
+  background: url("http://devfest.qiniudn.com/2014/22/image/register.png") no-repeat center top;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .watch-band {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 175px;
+    top: 0;
+    left: 50%;
+    margin-left: -87.5px;
+    background-color: #414141;
+    border-top: none;
+    border-bottom: none;
+    -wekit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .container {
+    position: absolute;
+    z-index: 10;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -175px;
+  }
+  .register-guide {
+    font-size: 16px;
+    margin-top: -210px;
+  }
+  .knob {
+    display: none;
+    width: 20px;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: -20px;
+    border-radius: 4px;
+  }
+  .one-screen .content-wrapper {
+    height: 100%;
+    margin-top: 0%;
+    background-color: white;
+  }
+  .one-screen .content-wrapper .content {
+    margin: 0 auto;
+  }
+  .one-screen .content-wrapper .main-icon {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    height: 13%;
+    width: 13%;
+    margin-top: -6.5%;
+    margin-right: -6.5%;
+    background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+    background-size: contain;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+  }
+  .one-screen .content-wrapper.half {
+    height: 30%;
+    margin-top: 70%;
+    background-color: white;
+  }
+  .one-screen .content-wrapper.half .content {
+    margin: 0 auto;
+  }
+  .one-screen .content-wrapper.half .main-icon {
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    height: 13%;
+    width: 13%;
+    margin-top: -6.5%;
+    margin-right: -6.5%;
+    background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+    background-size: contain;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+  }
+  .one-screen .content-wrapper.with-bg-l {
+    height: 30%;
+    margin-top: 70%;
+    background-color: white;
+  }
+  .one-screen .content-wrapper.with-bg-l .content {
+    margin: 0 auto;
+  }
+  .one-screen .content-wrapper.with-bg-l .main-icon {
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    height: 13%;
+    width: 13%;
+    margin-top: -6.5%;
+    margin-right: -6.5%;
+    background: url("http://devfest.qiniudn.com/2014/22/image/icon-gdg.jpg") no-repeat center center;
+    background-size: contain;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+  }
+  #main-title {
+    font-size: 12px;
+  }
+  #main-title .title {
+    padding-top: 8%;
+    font-size: 14px;
+  }
+  #main-title h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 6px 0;
+  }
+  #date-info i {
+    width: 28px;
+  }
+  #date-info .time,
+  #date-info .address,
+  #date-info .note {
+    font-size: 16px;
+  }
+  #date-info .time,
+  #date-info .address {
+    margin: 6px auto;
+  }
+  #date-info .note {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+  #date-info .date {
+    font-size: 16px;
+  }
+  #date-info .date span {
+    line-height: 16px;
+  }
+  #agenda .top {
+    font-size: 18px;
+  }
+  #agenda .agenda-wrapper .sections .section .time {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #agenda .agenda-wrapper .sections .section .info {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .speaker-intro .speaker .title {
+    font-size: 12px;
+  }
+  .speaker-intro .speaker .name {
+    font-size: 16px;
+  }
+  .speaker-intro .topic {
+    margin-top: 6px;
+  }
+  .speaker-intro .topic .topic-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #location .content {
+    padding-top: 6px;
+  }
+  #location .icon-turn-right {
+    margin-top: 6px;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10px;
+  }
+  #location .location-info .info {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  #location .location-info .tra {
+    margin-top: 2%;
+    font-size: 14px;
+  }
+  #register .prize-info {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 42px;
+  }
+  #register .register-tip {
+    padding-top: 150px;
+  }
+}
